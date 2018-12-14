@@ -38,7 +38,7 @@ public class Main {
 
     public static void Scen2() {
 
-        System.out.println("Scenario 2: Expected result 60%");
+        System.out.println("Scenario 2: Expected result 70%");
 
         int numTrue = 0;
         int numFalse = 0;
@@ -47,7 +47,7 @@ public class Main {
         for (int i = 0; i < count; i++) {
             int result = (int) Math.floor(Math.random() * 10 + 1);
 
-            if (result == 2 || result == 4 || result == 5||result==6||result==8||result==10) {
+            if (result == 2 || result == 4 || result == 6||result==7||result==8||result==9||result==10) {
                 numTrue++;
             } else {
                 numFalse++;
